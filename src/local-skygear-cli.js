@@ -15,7 +15,7 @@ const initServerWithProjectName = projectName => {
   const templatePath = path.resolve(
     __dirname,
     '..',
-    'templates',
+    'template',
     'local-skygear-template-oursky'
   );
   const descPath = path.resolve(projectName);
